@@ -1,0 +1,9 @@
+### from https://github.com/hakimel/reveal.js/wiki/Linux-udev-keys-binding
+### logitech keyboard
+### Input device ID: bus 0x11 vendor 0x1 product 0x1 version 0xab41
+evdev:input:b0011v0001p0001*
+  KEYBOARD_KEY_c9=left   # key marked PAGE UP    -> previous
+  KEYBOARD_KEY_d1=right # key marked PAGE DOWN  -> next
+  KEYBOARD_KEY_38=leftmeta # key marked left alt -> left meta
+  KEYBOARD_KEY_db=leftalt # key marked left meta -> left alt
+  KEYBOARD_KEY_3a=backspace # key marked caps lock -> backspace

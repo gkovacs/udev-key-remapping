@@ -1,0 +1,4 @@
+### typematrix
+### Input device ID: bus 0x5 vendor 0x46d product 0xb317 version 0x900
+evdev:input:b0005v046DpB317*
+  KEYBOARD_KEY_70039=backspace   # capslock -> backspace
