@@ -7,7 +7,7 @@ This is a set of files you can put into /etc/udev/hwdb.d/ and it will do things 
 Copy all the files to /etc/udev/hwdb.d/ and run the commands
 
 ```bash
-sudo udevadm hwdb --update
+sudo systemd-hwdb update
 sudo udevadm trigger
 ```
 
